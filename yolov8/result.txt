@@ -1,0 +1,30 @@
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3001-1.jpg: 64x64 3001 0.99, 3002 0.01, 3004 0.00, 3003 0.00, 3005 0.00, 110.1ms
+Speed: 15.7ms preprocess, 110.1ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3001-2.jpg: 64x64 3002 0.36, 3004 0.29, 3001 0.28, 3005 0.06, 3003 0.02, 0.0ms
+Speed: 15.6ms preprocess, 0.0ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3002-1.jpg: 64x64 3004 0.23, 3005 0.22, 3002 0.22, 3003 0.17, 3001 0.16, 0.0ms
+Speed: 0.0ms preprocess, 0.0ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3002-2.jpg: 64x64 3002 0.34, 3003 0.22, 3001 0.17, 3004 0.15, 3005 0.12, 0.0ms
+Speed: 15.8ms preprocess, 0.0ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3003-1.jpg: 64x64 3003 0.35, 3005 0.26, 3002 0.15, 3004 0.15, 3001 0.08, 109.4ms
+Speed: 16.3ms preprocess, 109.4ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3003-2.jpg: 64x64 3002 0.32, 3004 0.25, 3003 0.23, 3001 0.10, 3005 0.10, 31.4ms
+Speed: 31.4ms preprocess, 31.4ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3004-1.jpg: 64x64 3004 0.35, 3005 0.27, 3001 0.15, 3002 0.14, 3003 0.08, 15.6ms
+Speed: 15.7ms preprocess, 15.6ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3004-2.jpg: 64x64 3004 0.31, 3005 0.21, 3001 0.18, 3003 0.16, 3002 0.14, 15.6ms
+Speed: 0.0ms preprocess, 15.6ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3005-1.jpg: 64x64 3003 0.41, 3002 0.24, 3001 0.16, 3004 0.13, 3005 0.05, 15.6ms
+Speed: 0.0ms preprocess, 15.6ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
+
+image 1/1 C:\Users\wnwog\LegoBrickFinder\yolov8\brick-data\sample\3005-2.jpg: 64x64 3002 0.37, 3003 0.22, 3004 0.21, 3005 0.14, 3001 0.06, 15.6ms
+Speed: 0.0ms preprocess, 15.6ms inference, 0.0ms postprocess per image at shape (1, 3, 64, 64)
