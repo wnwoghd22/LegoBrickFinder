@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 import os
 
-model = YOLO('./../runs/classify/train4/weights/best.pt')
+model = YOLO('./../runs/classify/train6/weights/best.pt')
 sample_folder = './brick-data/sample'
 
 sample_files = os.listdir(sample_folder)
