@@ -1,0 +1,7 @@
+ultralytics
+tensorflow
+pillow
+flask
+numpy
+scikit-image
+scikit-learn
