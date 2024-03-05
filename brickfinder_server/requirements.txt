@@ -5,3 +5,4 @@ flask
 numpy
 scikit-image
 scikit-learn
+pytest

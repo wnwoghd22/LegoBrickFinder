@@ -11,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 # prepare data
 input_dir = './brick-data'
-categories = ['3004', '3005']
+categories = ['3001', '3002', '3003', '3004', '3005']
 
 data = []
 labels = []
