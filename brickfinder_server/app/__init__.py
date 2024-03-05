@@ -11,8 +11,6 @@ def create_app(test_config=None):
     if test_config:
         app.config.update(test_config)
 
-    return app
-
 
     @app.route('/')
     def hello():
@@ -38,6 +36,8 @@ def create_app(test_config=None):
             result = predict_sk(img)
 
             return jsonify(result)
+
+    return app
 
 
 if __name__ == '__main__':
