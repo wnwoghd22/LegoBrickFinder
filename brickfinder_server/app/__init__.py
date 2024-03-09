@@ -1,8 +1,4 @@
-from flask import Flask, request, jsonify
-from PIL import Image
-from yolo_model.model import predict_yolo
-from tensorflow_model.model import predict_tf
-from scikit_model.model import predict_sk
+from flask import Flask
 
 
 def create_app(test_config=None):
@@ -12,30 +8,14 @@ def create_app(test_config=None):
         app.config.update(test_config)
 
 
+    from .views import predict_views
+    app.register_blueprint(predict_views.bp)
+
+
     @app.route('/')
     def hello():
         return 'hello'
 
-    @app.route('/predict', methods=['POST'])
-    def predict():
-        if request.method == 'POST':
-            file = request.files['file']
-            img = Image.open(file.stream)
-            # result = predict_yolo(img)
-            # result = predict_tf(img)
-            result = predict_sk(img)
-
-            return jsonify(result)
-
-
-    @app.route('/predict/sklearn', methods=['POST'])
-    def predict_sk():
-        if request.method == 'POST':
-            file = request.files['file']
-            img = Image.open(file.stream)
-            result = predict_sk(img)
-
-            return jsonify(result)
 
     return app
 
